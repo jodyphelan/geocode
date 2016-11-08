@@ -5,6 +5,7 @@ Use google maps api to Geocode addresses to GPS
 **Input:** CSV file with "," as delimeter and double quotes to encapsulate text fields<br>
 **Output:** Three column CSV file with Town, Lat, Lng
 
+##Usage
 usage: geoCode.py geocode [-h] input key output
 
 positional arguments:
