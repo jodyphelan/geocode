@@ -26,7 +26,7 @@ def main(args):
 		address = address.replace("\W","+")
 		address = address.replace("++","+")
 		url = baseurl + address + "&key=" + key
-		print url
+		print "\n"+url
 		try:
 			response = urllib2.urlopen(url).read()
 		except:
@@ -52,7 +52,7 @@ def main(args):
 			address = address.replace("\W","+")
 			address = address.replace("++","+")
 			url = baseurl + address + "&key=" + key
-			print url
+			print "\n"+url
 			try:
 				response = urllib2.urlopen(url).read()
 			except:

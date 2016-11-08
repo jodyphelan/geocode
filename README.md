@@ -14,3 +14,8 @@ positional arguments:
 
 optional arguments:
   -h, --help  show this help message and exit
+
+
+##Note
+
+This implements the tqdm module - if for some reason you cant install just remove it from the two lines where it appears
