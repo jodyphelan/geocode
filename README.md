@@ -2,7 +2,7 @@
 
 Use google maps api to Geocode addresses to GPS
 
-**Input:** CSV file with "," as delimeter and double quotes to encapsulate text fields
+**Input:** CSV file with "," as delimeter and double quotes to encapsulate text fields<br>
 **Output:** Three column CSV file with Town, Lat, Lng
 
 usage: geoCode.py geocode [-h] input key output
